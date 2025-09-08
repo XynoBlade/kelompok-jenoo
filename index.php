@@ -14,7 +14,7 @@
             </div>
             <div class="navbar">
                 <li><a href="" class="nav">Menu</a></li>
-                <li><a href="" class="nav">Data Diri</a></li>
+                <li><a href="" class="nav">DataDiri</a></li>
                 <li><a href="" class="nav">Gallery Foto</a></li>
                 <li><a href="" class="nav">Mitra Kerja</a></li>
                 <li><a href="" class="nav">Goresan Cerita</a></li>
