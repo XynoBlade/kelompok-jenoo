@@ -21,7 +21,6 @@ if (isset($_GET['search'])) {
     }
 }
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,7 +32,7 @@ if (isset($_GET['search'])) {
     <div class="container">
         <div class="header">
             <div class="banner">
-                <img src="banner.jpg" alt="Banner" class="banner-img">
+                <img src="https://static.vecteezy.com/system/resources/previews/011/220/346/non_2x/rocket-launch-banner-horizontal-concept-start-up-and-future-office-illustration-vector.jpg" alt="Banner" class="banner-img">
             </div>
             <div class="navbar">
                 <li><a href="index.php" class="nav">Menu</a></li>
@@ -101,9 +100,9 @@ if (isset($_GET['search'])) {
                     <br>
                     kelas: X PPLG 1
                     <br>
-                    hobi: Bikin Robot
+                    hobi: Robotics
                     <br>
-                    tempat, tanggal lahir: Jakarta, 25 Juni
+                    tempat, tanggal lahir:  Jakarta, 25 Juni
                 </p>
             </div>
 
