@@ -80,8 +80,8 @@ body {
     margin-top: 10px;
 }
 
-.foto-profil {
-    width: 500px;
+.foto-profil img{
+    width: 480px;
     height: 240px;
     object-fit: cover;
     border-radius: 20px;

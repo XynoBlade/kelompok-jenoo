@@ -54,7 +54,7 @@ if (isset($_GET['search'])) {
                 <div class="berita-utama">
                     <p><a href="https://stackoverflow.com/questions/79758844/parrot-os-swap-memory" class="berita">Parrot OS swap memory</a></p>
                     <p><a href="https://stackoverflow.com/questions/79758773/text-cut-off-and-extra-spacing-when-exporting-html-to-pdf-with-html2pdf" class="berita">
-                        Text Cut Off and Extra Spacing When Exporting HTML to PDF with html2pdf
+                        Text Cut Off and Extra Spacing  Exporting HTML to PDF with html2pdf
                     </a></p>
                     <p><a href="https://stackoverflow.com/questions/79758482/css-grid-layout-items-reorder-unexpectedly-how-to-preserve-dom-order" class="berita">Cara benerin DOM Order</a></p>
                     <img src="https://media.suara.com/pictures/653x366/2025/09/07/54061-ahmad-sahroni.webp" alt="Foto Berita" class="foto-berita">
