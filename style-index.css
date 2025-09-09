@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #333;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav:hover {
+    color: yellow;
+}
+
+.text-marquee {
+    background: #ddd;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.isi {
+    display: flex;
+    margin-top: 20px;
+}
+
+.link {
+    width: 25%;
+    padding: 10px;
+}
+
+.center {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.search {
+    width: 25%;
+    padding: 10px;
+}
+
+.berita-utama a {
+    text-decoration: none;
+    color: #333;
+}
+
+.foto-berita {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.foto-profil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
