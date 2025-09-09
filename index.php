@@ -22,17 +22,20 @@ if (isset($_GET['search'])) {
 }
 ?>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-index.css">
     <title>Website Kelompok StackOverflow</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="banner">
-                <img src="https://static.vecteezy.com/system/resources/previews/011/220/346/non_2x/rocket-launch-banner-horizontal-concept-start-up-and-future-office-illustration-vector.jpg" alt="Banner" class="banner-img">
+                <img src="https://static.vecteezy.com/system/resources/previews/011/220/346/non_2x/rocket-launch-banner-horizontal-concept-start-up-and-future-office-illustration-vector.jpg"
+                    alt="Banner" class="banner-img">
             </div>
             <div class="navbar">
                 <li><a href="index.php" class="nav">Menu</a></li>
@@ -52,13 +55,18 @@ if (isset($_GET['search'])) {
             <div class="link">
                 <h3 class="berita-terkini">BERITA TERKINI</h3>
                 <div class="berita-utama">
-                    <p><a href="https://stackoverflow.com/questions/79758844/parrot-os-swap-memory" class="berita">Parrot OS swap memory</a></p>
-                    <p><a href="https://stackoverflow.com/questions/79758773/text-cut-off-and-extra-spacing-when-exporting-html-to-pdf-with-html2pdf" class="berita">
-                        Text Cut Off and Extra Spacing  Exporting HTML to PDF with html2pdf
-                    </a></p>
-                    <p><a href="https://stackoverflow.com/questions/79758482/css-grid-layout-items-reorder-unexpectedly-how-to-preserve-dom-order" class="berita">Cara benerin DOM Order</a></p>
-                    <img src="https://media.suara.com/pictures/653x366/2025/09/07/54061-ahmad-sahroni.webp" alt="Foto Berita" class="foto-berita">
-                    <p><a href="https://www.suara.com/news/2025/09/08/120806/cek-fakta-benarkah-art-ahmad-sahroni-luka-parah-saat-penjarahan-rumahnya" class="berita">ART Sahroni Terluka?????</a></p>
+                    <p><a href="https://stackoverflow.com/questions/79758844/parrot-os-swap-memory"
+                            class="berita">Parrot OS swap memory</a></p>
+                    <p><a href="https://stackoverflow.com/questions/79758773/text-cut-off-and-extra-spacing-when-exporting-html-to-pdf-with-html2pdf"
+                            class="berita">
+                            Text Cut Off and Extra Spacing Exporting HTML to PDF with html2pdf
+                        </a></p>
+                    <p><a href="https://stackoverflow.com/questions/79758482/css-grid-layout-items-reorder-unexpectedly-how-to-preserve-dom-order"
+                            class="berita">Cara benerin DOM Order</a></p>
+                    <img src="https://media.suara.com/pictures/653x366/2025/09/07/54061-ahmad-sahroni.webp"
+                        alt="Foto Berita" class="foto-berita">
+                    <p><a href="https://www.suara.com/news/2025/09/08/120806/cek-fakta-benarkah-art-ahmad-sahroni-luka-parah-saat-penjarahan-rumahnya"
+                            class="berita">ART Sahroni Terluka?????</a></p>
                 </div>
             </div>
 
@@ -72,7 +80,7 @@ if (isset($_GET['search'])) {
                     <br>
                     Hobi : Tidur
                     <br>
-                    Tempat, Tanggal Lahir : Jakarta, 8 April 2010   
+                    Tempat, Tanggal Lahir : Jakarta, 8 April 2010
                 </p>
                 <img src="rell.jpg" alt="Foto Profil" class="foto-profil">
                 <p>
@@ -102,7 +110,7 @@ if (isset($_GET['search'])) {
                     <br>
                     hobi: Robotics
                     <br>
-                    tempat, tanggal lahir:  Jakarta, 25 Juni
+                    tempat, tanggal lahir: Jakarta, 25 Juni
                 </p>
             </div>
 
@@ -113,12 +121,12 @@ if (isset($_GET['search'])) {
                     <button type="submit">Go</button>
                 </form>
                 <?php if (isset($_GET['search'])): ?>
-                    <div class="hasil">
-                        <h4>Hasil Pencarian:</h4>
-                        <ul>
-                            <?= $hasil ?>
-                        </ul>
-                    </div>
+                <div class="hasil">
+                    <h4>Hasil Pencarian:</h4>
+                    <ul>
+                        <?= $hasil ?>
+                    </ul>
+                </div>
                 <?php endif; ?>
 
             </div>
@@ -129,4 +137,5 @@ if (isset($_GET['search'])) {
         </div>
     </div>
 </body>
+
 </html>
