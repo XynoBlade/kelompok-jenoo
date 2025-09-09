@@ -68,27 +68,42 @@ if (isset($_GET['search'])) {
                 <img src="junn.jpg" alt="Foto Profil" class="foto-profil">
                 <p>
                     Nama : Junio Moses Nathanael
+                    <br>
                     Kelas : X PPLG 1
+                    <br>
                     Hobi : Tidur
+                    <br>
                     Tempat, Tanggal Lahir : Jakarta, 8 April 2010   
                 </p>
                 <img src="rell.jpg" alt="Foto Profil" class="foto-profil">
                 <p>
                     Nama : Aurel Nadia Susanto
+                    <br>
                     Kelas : X PPLG 1
+                    <br>
                     Hobi : Denger musik
+                    <br>
                     Tempat tanggal lahir : Tangerang, 9 November 2010
                 </p>
                 <img src="call.jpg" alt="Foto Profil" class="foto-profil">
                 <p>
                     nama: Callysta Felycia Chen
+                    <br>
                     kelas: 10
+                    <br>
                     hobi: banyak
+                    <br>
                     tempat, tanggal lahir: Tangerang, 30 Januari
                 </p>
                 <img src="img 3.jpg" alt="Foto Profil" class="foto-profil">
                 <p>
-                    
+                    nama: Gabriel Antonius Suryadi
+                    <br>
+                    kelas: X PPLG 1
+                    <br>
+                    hobi: Bikin Robot
+                    <br>
+                    tempat, tanggal lahir: Jakarta, 25 Juni
                 </p>
             </div>
 
