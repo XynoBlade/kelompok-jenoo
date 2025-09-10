@@ -40,6 +40,7 @@ body {
 }
 
 .nav:hover {
+    transition: 1s;
     color: yellow;
 }
 
@@ -56,7 +57,16 @@ body {
 
 .link {
     width: 25%;
-    padding: 10px;
+    background: white;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.link a:hover{
+    transition: 0.2s;
+    color: rgb(212, 150, 33);
+    text-decoration: underline;
 }
 
 .center {
@@ -67,7 +77,10 @@ body {
 
 .search {
     width: 25%;
-    padding: 10px;
+    background: white;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .berita-utama a {
