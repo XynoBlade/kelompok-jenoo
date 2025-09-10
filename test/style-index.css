@@ -87,6 +87,16 @@ body {
     border-radius: 20px;
 }
 
+.menu-foto{
+    width: 512px;
+    height: 320px;
+}
+
+.text-p{
+    width: 100%;
+    text-align: justify;
+}
+
 .footer {
     text-align: center;
     background: #333;

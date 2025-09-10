@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-index.css">
+    <title>Website Kelompok StackOverflow</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="banner">
+                <img src="https://static.vecteezy.com/system/resources/previews/011/220/346/non_2x/rocket-launch-banner-horizontal-concept-start-up-and-future-office-illustration-vector.jpg"
+                    alt="Banner" class="banner-img">
+            </div>
+            <div class="navbar">
+                <li><a href="Menu.html" class="nav">Menu</a></li>
+                <li><a href="Data Diri.html" class="nav">Data Diri</a></li>
+                <li><a href="gallery.php" class="nav">Gallery Foto</a></li>
+                <li><a href="mitra.php" class="nav">Mitra Kerja</a></li>
+                <li><a href="cerita.php" class="nav">Goresan Cerita</a></li>
+                <li><a href="Video.html" class="nav">Video</a></li>
+                <li><a href="kontak.php" class="nav">Kontak</a></li>
+            </div>
+            <div class="text-marquee">
+                <marquee behavior="alternate" direction="left">Selamat Datang di Website Kelompokku</marquee>
+            </div>
+        </div>
+
+        <div class="isi">
+            <div class="link">
+                <h3 class="berita-terkini">BERITA TERKINI</h3>
+                <div class="berita-utama">
+                    <p><a href="https://stackoverflow.com/questions/79758844/parrot-os-swap-memory"
+                            class="berita">Parrot OS swap memory</a></p>
+                    <p><a href="https://stackoverflow.com/questions/79758773/text-cut-off-and-extra-spacing-when-exporting-html-to-pdf-with-html2pdf"
+                            class="berita">
+                            Text Cut Off and Extra Spacing Exporting HTML to PDF with html2pdf
+                        </a></p>
+                    <p><a href="https://stackoverflow.com/questions/79758482/css-grid-layout-items-reorder-unexpectedly-how-to-preserve-dom-order"
+                            class="berita">Cara benerin DOM Order</a></p>
+                    <img src="https://media.suara.com/pictures/653x366/2025/09/07/54061-ahmad-sahroni.webp"
+                        alt="Foto Berita" class="foto-berita">
+                    <p><a href="https://www.suara.com/news/2025/09/08/120806/cek-fakta-benarkah-art-ahmad-sahroni-luka-parah-saat-penjarahan-rumahnya"
+                            class="berita">ART Sahroni Terluka?????</a></p>
+                </div>
+            </div>
+
+            <div class="center">
+                <h2>Video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bGFUowgKqmo?si=L5ue_2UashNYwo8l"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="search">
+                <h3>Pencarian</h3>
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Cari berita...">
+                    <button type="submit">Go</button>
+                </form>
+                <div class="hasil" id="hasil">
+                    <!-- Hasil pencarian akan muncul di sini -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Website Gabriel Antonius Suryadi</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
