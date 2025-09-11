@@ -10,7 +10,7 @@
         const hasilDiv = document.getElementById('hasil');
 
         form.addEventListener('submit', function (e) {
-            e.preventDefault(); // biar gak reload halaman
+            e.preventDefault();
             const keyword = input.value.toLowerCase();
             let hasil = "";
 

@@ -47,7 +47,7 @@ body {
 .text-marquee {
     background: #ddd;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .isi {
