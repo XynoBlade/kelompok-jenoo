@@ -47,7 +47,7 @@ body {
 .text-marquee {
     background: #ddd;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .isi {
@@ -106,8 +106,9 @@ body {
 }
 
 .text-p{
-    width: 100%;
+    
     text-align: justify;
+    margin: 20px;
 }
 
 .footer {
@@ -117,3 +118,15 @@ body {
     padding: 15px;
     margin-top: 20px;
 }
+
+.frame{
+    display: flex;
+    margin: 15px;
+}
+
+.frame p{
+    margin: 20px;
+    text-align: left;
+    margin-top: 80px;
+}
+
