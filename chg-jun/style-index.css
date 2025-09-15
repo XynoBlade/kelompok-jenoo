@@ -149,3 +149,15 @@ body {
     text-align: left;
 }
 
+.mitra-foto{
+    width: 250px;
+    height: 230px;
+    border-radius: 15px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px gray;
+    object-fit: contain;
+}
+.mitra-foto:hover{ 
+    box-shadow: 0 5px 15px rgb(93, 85, 85);
+}
