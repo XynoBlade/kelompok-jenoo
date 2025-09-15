@@ -73,6 +73,16 @@ body {
     width: 50%;
     text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 .search {
@@ -128,5 +138,16 @@ body {
     margin: 20px;
     text-align: left;
     margin-top: 80px;
+}
+
+.framecont{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.framecont p{
+    margin: 20px;
+    text-align: left;
 }
 
