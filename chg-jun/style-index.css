@@ -118,6 +118,9 @@ body {
 .menu-foto{
     width: 512px;
     height: 320px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .text-p{
@@ -184,4 +187,13 @@ body {
 .foto-frame{
     width: 45%;
     margin: 20px;
+}
+
+#cube{
+    width: 75%;
+}
+
+#video{
+    margin: auto;
+    margin-top: 5px;
 }
