@@ -73,6 +73,13 @@ body {
     width: 50%;
     text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer{
+    margin: auto;
+    display: flex;
 }
 
 .contdiv{
@@ -160,4 +167,21 @@ body {
 }
 .mitra-foto:hover{ 
     box-shadow: 0 5px 15px rgb(93, 85, 85);
+}
+.gallery-foto{
+    width: 250px;
+    height: 230px;
+    border-radius: 15px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px gray;
+    object-fit: contain;
+}
+.gallery-foto:hover{ 
+    box-shadow: 0 5px 15px rgb(93, 85, 85);
+}
+
+.foto-frame{
+    width: 45%;
+    margin: 20px;
 }
