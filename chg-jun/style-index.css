@@ -124,9 +124,14 @@ body {
 }
 
 .text-p{
-    
+    margin: 20px auto;
     text-align: justify;
-    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px gray;
 }
 
 .footer {
@@ -155,7 +160,8 @@ body {
 }
 
 .framecont p{
-    margin: 20px;
+    margin: auto;
+    margin-top: 20px;
     text-align: left;
 }
 
@@ -196,4 +202,13 @@ body {
 #video{
     margin: auto;
     margin-top: 5px;
+}
+
+.icon{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+    margin-bottom: 10px;
 }
