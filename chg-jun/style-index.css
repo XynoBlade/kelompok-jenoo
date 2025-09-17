@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #001233;
+    color: #ffffff;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     list-style: none;
-    background: #333;
+    background: #002855;
     padding: 10px;
     margin: 0;
 }
@@ -34,18 +35,18 @@ body {
 }
 
 .nav {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
 .nav:hover {
     transition: 1s;
-    color: yellow;
+    color: #0466C8;
 }
 
 .text-marquee {
-    background: #ddd;
+    background: #33415C;
     padding: 5px;
     margin-top: 0;
 }
@@ -57,15 +58,15 @@ body {
 
 .link {
     width: 25%;
-    background: white;
-    border-right: 1px solid #ddd;
+    background: #5C677D;
+    border-right: 1px solid #5C677D;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .link a:hover{
     transition: 0.2s;
-    color: rgb(212, 150, 33);
+    color: #71a9e1;
     text-decoration: underline;
 }
 
@@ -92,20 +93,24 @@ body {
 
 .search {
     width: 25%;
-    background: white;
-    border-right: 1px solid #ddd;
+    background: #33415C;
+    border-right: 1px solid #33415C;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .berita-utama a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .foto-berita {
     width: 100%;
     margin-top: 10px;
+    box-shadow: 0 2px 2px gray;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .foto-profil {
@@ -113,6 +118,9 @@ body {
     height: 240px;
     object-fit: cover;
     border-radius: 20px;
+    box-shadow: 0 2px 2px gray;
+    padding: 2px;
+    background-color: white;
 }
 
 .menu-foto{
@@ -121,22 +129,27 @@ body {
     margin: auto;
     margin-bottom: 5px;
     margin-top: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px gray;
+    padding: 2px;
+    border-radius: 10px;
 }
 
 .text-p{
     margin: 20px auto;
     text-align: justify;
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: auto;
     border-radius: 15px;
-    background: white;
+    background: #FFFFFF;
     padding: 15px;
     box-shadow: 0 2px 5px gray;
+    color: #001845;
 }
 
 .footer {
     text-align: center;
-    background: #333;
+    background: #000b1f;
     color: white;
     padding: 15px;
     margin-top: 20px;
@@ -196,7 +209,9 @@ body {
 }
 
 #cube{
+    margin-top: 50px;
     width: 75%;
+    border-radius: 10px;
 }
 
 #video{
@@ -211,4 +226,10 @@ body {
     gap: 15px;
     margin: auto;
     margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px gray;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px;
+    background-color: white;
 }
