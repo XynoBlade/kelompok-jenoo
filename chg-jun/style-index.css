@@ -96,8 +96,8 @@ body {
 
 .search {
     width: 25%;
-    background: #33415C;
-    border-right: 1px solid #33415C;
+    background: #5C677D;
+    border-right: 1px solid #5C677D;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -215,6 +215,7 @@ body {
     margin-top: 50px;
     width: 75%;
     border-radius: 10px;
+    mix-blend-mode:multiply; 
 }
 
 #video{
@@ -234,5 +235,14 @@ body {
     padding: 2px;
     background-color: white;
     border-radius: 5px;
-    background-color: white;
+}
+
+#searchInput{
+    width: 70%;
+    border-radius: 5px;
+}
+
+#searchSub{
+    width: 20%;
+    border-radius: 5px;
 }
