@@ -173,12 +173,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .framecont p{
     margin: auto;
     margin-top: 20px;
-    text-align: left;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 .mitra-foto{
@@ -212,10 +214,10 @@ body {
 }
 
 #cube{
-    margin-top: 50px;
+    margin-top: 120px;
     width: 75%;
     border-radius: 10px;
-    mix-blend-mode:multiply; 
+    mix-blend-mode: multiply; 
 }
 
 #video{
@@ -245,4 +247,23 @@ body {
 #searchSub{
     width: 20%;
     border-radius: 5px;
+}
+
+#reply{
+    margin-top: 10px;
+    width: 70%;
+    height: 300px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.test-arr{
+    margin-top: 25px;
+    width: 100%;
+    display: block;
+}
+
+.but{
+    padding: 20px;
+    border-radius: 20px;
 }
