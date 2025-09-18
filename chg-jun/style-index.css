@@ -9,15 +9,18 @@ body {
     height: 100%;
     width: 100%;
     margin: auto;
+    
 }
 
 .header {
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .banner-img {
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
 }
 
