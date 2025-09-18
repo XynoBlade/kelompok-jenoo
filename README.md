@@ -1,7 +1,7 @@
 # kelompok-jenoo
-dppplg1 
-<<<<<<< HEAD
- test
+Kelompok Jenoo
+<<<<<<<
+ Love You Guysss
 =======
 aurel
 >>>>>>> main
